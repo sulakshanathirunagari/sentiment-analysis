@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.zip
+
+# Model files
+*.h5
+*.pkl
+*.pt
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env files
+.env
+
+# VSCode/IDE
+.vscode/
+*.log
+
+# Ignore large model files
+data/LSTM_models/*.keras
+
+data/LSTM_models/*.keras 
+data/LSTM_models/*.keras 
